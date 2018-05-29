@@ -70,6 +70,12 @@
 						</li>
 						<!-- ENDIF privileges.upload:post:file -->
 					<!--<![endif]-->
+					
+					<!-- IF isTopic -->
+					<li class="create-poll-btn" data-format="poll" tabindex="-1" title="insert poll">
+						P
+					</li>
+					<!-- ENDIF isTopic -->
 
 					<!-- IF allowTopicsThumbnail -->
 					<li tabindex="-1">
